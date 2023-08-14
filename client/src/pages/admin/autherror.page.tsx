@@ -15,7 +15,7 @@ const AuthError = () => {
   };
   if (!user) {
     router.push('/admin/login');
-    return <div>redirecting...</div>;
+    return;
   }
 
   return (
